@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-24T06:50:49.976Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3522899700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.StepDef.Hooks.Precondition()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login",
+        "description": "",
+        "id": "validation-of-login-scenario;login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2786126000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the browser",
+            "match": {
+              "location": "com.automation.StepDef.LoginSteps.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2829906700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter valid username \"username\" and Password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.automation.StepDef.LoginSteps.enter_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3117632500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "execute successfully",
+            "match": {
+              "location": "com.automation.StepDef.LoginSteps.execute_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-24T06:51:02.384Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1787985500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.StepDef.Hooks.Precondition()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Add User",
+        "description": "",
+        "id": "validation-of-login-scenario;add-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3797155000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Open the browser",
+            "match": {
+              "location": "com.automation.StepDef.LoginSteps.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2870689300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter valid username \"\u003cusername\u003e\" and Password \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusername\u003e\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.automation.StepDef.LoginSteps.enter_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29104296100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on Admin button",
+            "match": {
+              "location": "com.automation.StepDef.AddUserSteps.click_on_admin_button(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": []
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Login scenario",
+    "description": "",
+    "id": "validation-of-login-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/verifyLogin.feature",
+    "tags": []
+  }
+]
